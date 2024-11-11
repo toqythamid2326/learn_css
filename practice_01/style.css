@@ -1,0 +1,170 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero .button {
+    display: inline-block;
+    background-color: #f04;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .button:hover {
+    background-color: #c03;
+}
+
+/* Services Section */
+.services {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services h3 {
+    margin-bottom: 20px;
+}
+
+.service-card {
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h4 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+/* Set background color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555; /* Slightly lighter gray for hover effect */
+    color: white;
+}
+
+/* Style the main content section */
+main {
+    padding: 20px;
+    text-align: center;
+    
+    background-color: #4b4b4b; /* Light background for main content */
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+main p {
+    font-size: 1.2em;
+    color: white;
+}
+
+
+/* Style the "Learn More" button */
+button {
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+/* Style the services section */
+section.services {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.service-item h3 {
+    margin-top: 0;
+}
+
+
